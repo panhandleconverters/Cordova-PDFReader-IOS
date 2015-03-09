@@ -158,7 +158,7 @@
             
         } // end of bookmarks Option
         
-        if (document.canEmail == YES && [[ReaderConstants sharedReaderConstants] enableShare]) // Document email enabled
+        if (1==2 && document.canEmail == YES && [[ReaderConstants sharedReaderConstants] enableShare]) // Document email enabled
         {
             if ([MFMailComposeViewController canSendMail] == YES) // Can email
             {
@@ -205,7 +205,7 @@
             }
         }
         
-        if (document.canExport == YES && [[ReaderConstants sharedReaderConstants] enableShare]) // Document export enabled
+        if (1==2 && document.canExport == YES && [[ReaderConstants sharedReaderConstants] enableShare]) // Document export enabled
         {
             rightButtonX -= (iconButtonWidth + buttonSpacing); // Next position
             
